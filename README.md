@@ -37,3 +37,30 @@ le client dans la base de données
 
 Comme le fichier de données sur les ventes s'actualise en temps réel, vous devez vous assurer que les
 lignes de données à importer ne sont pas déjà stockées en base de données.
+
+## Ressources :
+
+_Données de l'entreprise (URLs)_
+
+Données "produits" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64foMT9pKCiY594fBZk9Lyj8_bxfgmq-8ck_jw1Z49qDeMatCWqBxehEVoM6U1zdYx73V/pub?gid=0&single=true&output=csv
+
+Données "magasins" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64foMT9pKCiY594fBZk9Lyj8_bxfgmq-8ck_jw1Z49qDeMatCWqBxehEVoM6U1zdYx73V/pub?gid=714623615&single=true&output=csv
+
+Données "ventes" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64foMT9pKCiY594fBZk9Lyj8_bxfgmq-8ck_jw1Z49qDeMatCWqBxehEVoM6U1zdYx73V/pub?gid=760830694&single=true&output=csv
+
+## Livrables :
+
+_Schémas de l'architecture des services et de la base de données_
+[INSÉRER IMAGES]
+
+_Dockerfile_
+-> Voir le fichier dans ce repo
+
+_Docker Compose_
+-> Voir le fichier dans ce repo
+
+_Scripts d'éxecution Python_
+-> Voir les fichiers dans ce repo
+
+_Fiche synthèse des résultats d'analyse obtenus_
+[CRÉER LE FICHIER PUIS L'AJOUTER AU REPO]
