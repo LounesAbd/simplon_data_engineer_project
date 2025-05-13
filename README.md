@@ -22,13 +22,9 @@ Dans un premier temps, votre responsable data engineer vous demande de :
 - réaliser une analyse préalable afin de mieux cadrer le projet final. Pour cela, le client vous a fourni
 un extrait de leur jeu de données des ventes sur 30 jours et des données relatives à ses produits
 et à ses magasins distribués dans plusieurs villes de France.
-- concevoir une architecture en deux services :
-○ un premier service pour l’exécution des scripts dans le langage de programmation de
-votre choix.
-○ un deuxième service pour le stockage des données en base de données avec SQLite.
-- implémenter l’architecture conçue :
-○ créez les fichiers Dockerfile et Docker Compose
-○ assurez la bonne exécution de l’architecture
+- concevoir une architecture en deux services : un premier service pour l’exécution des scripts dans le langage de programmation de
+votre choix. Un deuxième service pour le stockage des données en base de données avec SQLite.
+- implémenter l’architecture conçue : Créez les fichiers Dockerfile et Docker Compose. Assurez la bonne exécution de l’architecture.
 
 Vous devez prendre connaissance des données partagées et en comprendre les principales
 caractéristiques pour créer le schéma de la base de données avec ces tables et relations. Une fois le
