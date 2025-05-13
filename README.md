@@ -14,6 +14,7 @@ autre de stockage de données
 ## Brief :
 
 _Scénario_
+
 Vous êtes technicien·ne système et vous assistez un⸱e data engineer, au sein d’une PME de services
 numériques. Un client de votre entreprise souhaite mieux comprendre la dynamique de ses ventes afin
 d’améliorer leur prise de décision stratégique.
