@@ -2,7 +2,7 @@
 
 ## Projet pour la préparation à la journée de sélection pour le parcours de formation Data Engineer.
 
-## Objectifs visés :
+## 🎯 Objectifs visés :
 - Créer et mettre en œuvre une architecture avec deux services : un d’exécution de scripts et un
 autre de stockage de données
 - Explorer et qualifier un jeu de données et en expliquer ses caractéristiques
@@ -11,7 +11,7 @@ autre de stockage de données
 - Réaliser un premier niveau d’analyses de données avec SQL
 - Stocker les résultats des analyses
 
-## Brief :
+## 📝 Brief :
 
 _Scénario_
 
@@ -38,7 +38,7 @@ le client dans la base de données
 Comme le fichier de données sur les ventes s'actualise en temps réel, vous devez vous assurer que les
 lignes de données à importer ne sont pas déjà stockées en base de données.
 
-## Ressources :
+## 🗂 Ressources :
 
 _Données de l'entreprise (URLs)_
 
@@ -48,7 +48,7 @@ Données "magasins" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC
 
 Données "ventes" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64foMT9pKCiY594fBZk9Lyj8_bxfgmq-8ck_jw1Z49qDeMatCWqBxehEVoM6U1zdYx73V/pub?gid=760830694&single=true&output=csv
 
-## Livrables :
+## 📥 Livrables :
 
 _Schémas de l'architecture des services et de la base de données_
 [INSÉRER IMAGES]
