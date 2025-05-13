@@ -1,6 +1,6 @@
 # Test de positionnement formation Data Engineer Simplon
 
-## Projet pour la préparation à la journée de sélection pour le parcours de formation Data Engineer.
+_Projet pour la préparation à la journée de sélection pour le parcours de formation Data Engineer._
 
 ## 🎯 Objectifs visés :
 - Créer et mettre en œuvre une architecture avec deux services : un d’exécution de scripts et un
