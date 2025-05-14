@@ -51,10 +51,11 @@ Données "ventes" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64
 ## 📥 Livrables :
 
 _Schémas de l'architecture des services et de la base de données_
-![simplon_data_engineer_project_architecture drawio](https://github.com/user-attachments/assets/a90184a1-3b86-40ce-8e6d-5df8f7ab84a4)
 
-![simplon_data_engineer_project_ERD](https://github.com/user-attachments/assets/f5727bfc-e38f-49ca-b662-52c5eac9f828)
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/a90184a1-3b86-40ce-8e6d-5df8f7ab84a4" alt="simplon_data_engineer_project_architecture drawio">
+  <img src="https://github.com/user-attachments/assets/f5727bfc-e38f-49ca-b662-52c5eac9f828" alt="simplon_data_engineer_project_ERD">
+</div>
 
 _Dockerfile_
 -> Voir le fichier dans ce repo
