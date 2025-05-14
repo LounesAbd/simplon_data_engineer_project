@@ -7,7 +7,7 @@ python create_db.py
 echo "📥 Importation des données..."
 python import_data.py
 
-echo "📊 Analyse des données..."
+echo "📊 Analyse des données et écriture des résultats dans la database..."
 python analyse_data.py
 
 echo "✅ Fin de l'exécution."
