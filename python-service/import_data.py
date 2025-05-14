@@ -30,11 +30,19 @@ cur = conn.cursor()
 # Import des produits
 print("📦 Insertion des produits...")
 produits_df.columns = ['nom', 'ref_produit_id', 'prix', 'stock']
+
+cur.execute("DELETE FROM produits") # Supprime les anciennes données
+conn.commit()
+
 produits_df.to_sql('produits', conn, if_exists='append', index=False)
 
 # Import des magasins
 print("🏪 Insertion des magasins...")
 magasins_df.columns = ['magasin_id', 'ville', 'nb_salaries']
+
+cur.execute("DELETE FROM magasins") # Supprime les anciennes données
+conn.commit()
+
 magasins_df.to_sql('magasins', conn, if_exists='append', index=False)
 
 # Import des ventes (en évitant les doublons)

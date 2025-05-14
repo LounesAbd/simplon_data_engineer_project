@@ -22,9 +22,9 @@ total_ca = cur.fetchone()[0] or 0.0
 cur.execute("""
             INSERT INTO total_ca (total_ca, date_analyse)
             VALUES (?, ?)
-            """, total_ca, today)
+            """, (total_ca, today))
 
-print(f"✅ CA total : {total_ca:} €")
+print(f"✅ CA total : {total_ca:.2f} €")
 
 # 2 - Insertion des données dans la table 'ventes_produit'
 cur.execute("""
