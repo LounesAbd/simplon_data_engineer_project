@@ -20,4 +20,5 @@ RUN uv pip install --no-cache-dir -r requirements.txt
 COPY . /app
 
 # Exécute le script de création de la base de données
-RUN ["python", "create_db.py"]
+CMD ["bash", "entrypoint.sh"]
+
