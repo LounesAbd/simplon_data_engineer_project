@@ -44,9 +44,11 @@ query_create_ventes = """
 CREATE TABLE IF NOT EXISTS ventes (
     vente_id INTEGER PRIMARY KEY AUTOINCREMENT,
     date TEXT NOT NULL,
-    ref_produit TEXT FOREIGN KEY REFERENCES produits(ref_produit_id),
+    ref_produit TEXT,
     quantite INTEGER NOT NULL,
-    magasin_id INTEGER FOREIGN KEY REFERENCES magasins(magasin_id)
+    magasin_id INTEGER,
+    FOREIGN KEY (ref_produit) REFERENCES produits(ref_produit_id),
+    FOREIGN KEY (magasin_id) REFERENCES magasins(magasin_id)
     )
 """
 cursor.execute(query_create_ventes)
@@ -65,11 +67,12 @@ cursor.execute(query_create_total_ca)
 query_create_ventes_produit = """
 CREATE TABLE IF NOT EXISTS ventes_produit (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    ref_produit_id TEXT FOREIGN KEY REFERENCES produits(ref_produit_id),
+    ref_produit TEXT,
     nom_produit TEXT,
     quantite INTEGER,
     total_ca REAL,
-    date_analyse TEXT
+    date_analyse TEXT,
+    FOREIGN KEY (ref_produit) REFERENCES produits(ref_produit_id)
     )
 """
 cursor.execute(query_create_ventes_produit)
