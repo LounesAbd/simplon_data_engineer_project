@@ -52,18 +52,14 @@ Données "ventes" : https://docs.google.com/spreadsheets/d/e/2PACX-1vSawI56WBC64
 
 _Schémas de l'architecture des services et de la base de données_
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/a90184a1-3b86-40ce-8e6d-5df8f7ab84a4" alt="simplon_data_engineer_project_architecture drawio">
-  <img src="https://github.com/user-attachments/assets/f5727bfc-e38f-49ca-b662-52c5eac9f828" alt="simplon_data_engineer_project_ERD">
-</div>
+🏗 [Architecture des services](https://github.com/user-attachments/assets/a90184a1-3b86-40ce-8e6d-5df8f7ab84a4)
 
-[Dockerfile]()
--> Voir le fichier dans ce repo
+🔗 [Schema de la base de données](https://github.com/user-attachments/assets/f5727bfc-e38f-49ca-b662-52c5eac9f828)
 
-[Docker Compose]()
--> Voir le fichier dans ce repo
+🐋 [Dockerfile](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/python-service/Dockerfile)
 
-[Scripts d'éxecution Python]
--> Voir les fichiers dans ce repo
+🚢 [Docker Compose](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/docker-compose.yml)
 
-[Fiche synthèse des résultats d'analyse obtenus](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/analyses/fiche_synthese.pdf)
+⚙️ [Scripts d'éxecution Python](https://github.com/LounesAbd/simplon_data_engineer_project/tree/main/python-service)
+
+📝 [Fiche synthèse des résultats d'analyse obtenus](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/analyses/fiche_synthese.pdf)
