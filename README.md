@@ -57,14 +57,13 @@ _Schémas de l'architecture des services et de la base de données_
   <img src="https://github.com/user-attachments/assets/f5727bfc-e38f-49ca-b662-52c5eac9f828" alt="simplon_data_engineer_project_ERD">
 </div>
 
-_Dockerfile_
+[Dockerfile]()
 -> Voir le fichier dans ce repo
 
-_Docker Compose_
+[Docker Compose]()
 -> Voir le fichier dans ce repo
 
-_Scripts d'éxecution Python_
+[Scripts d'éxecution Python]
 -> Voir les fichiers dans ce repo
 
-_Fiche synthèse des résultats d'analyse obtenus_
-[CRÉER LE FICHIER PUIS L'AJOUTER AU REPO]
+[Fiche synthèse des résultats d'analyse obtenus](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/analyses/fiche_synthese.pdf)
