@@ -63,3 +63,5 @@ _Schémas de l'architecture des services et de la base de données_
 ⚙️ [Scripts d'éxecution Python](https://github.com/LounesAbd/simplon_data_engineer_project/tree/main/python-service)
 
 📝 [Fiche synthèse des résultats d'analyse obtenus](https://github.com/LounesAbd/simplon_data_engineer_project/blob/main/analyses/fiche_synthese.pdf)
+
+📹 [Video de démonstration](https://github.com/user-attachments/assets/10464e61-1592-4ab7-9a5a-df59da0e2054)
